@@ -71,7 +71,7 @@ void roomTemp()
   sensors.requestTemperatures();  
   Serial.print("The Room Temperature is: ");
   Serial.println(sensors.getTempCByIndex(0)); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
-
+  Serial.println(sensors.getTempFByIndex(0));
   previousMillis = currentMillis;
   }
 }

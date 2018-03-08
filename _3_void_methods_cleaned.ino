@@ -16,7 +16,7 @@ const int sampleWindow = 250;// Sample window width in mS (250 mS = 4Hz)
 unsigned int knock;
 //int ledPin = 9;
 int count = 0;
-int smart;
+
 .
 unsigned long previousMillis = 0;
 
